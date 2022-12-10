@@ -1,0 +1,62 @@
+a {
+  color:black;
+}
+
+#home,#about, #timeline, #plan{
+  padding: 50px;
+  text-align: center;
+}
+
+#home{
+  padding: 80px;
+  background-color:	#aed8ff;
+}
+#timeline{
+  background-color: rgb(255, 255, 228);
+}
+
+/* home */
+#home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid #eeeeee;
+}
+#home__name{
+  color:rgb(24, 4, 149);
+  text-decoration: none;
+}
+
+/* timeline */
+.timeline__img{
+  height: 50px;
+}
+
+.timeline__box{
+  display:flex;
+  align-items: center;
+  padding-left: 30%;
+}
+
+.timeline__txt{
+  margin: 0 16px;
+  text-align: left;
+}
+
+/* plan */
+.plan__list{
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+
+.plan__img{
+  width: 150px;
+  height: 150px;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
